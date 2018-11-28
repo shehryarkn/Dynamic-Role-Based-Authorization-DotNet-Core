@@ -1,0 +1,22 @@
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.deps.json
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.runtimeconfig.json
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.runtimeconfig.dev.json
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.dll
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.pdb
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.csproj.CoreCompileInputs.cache
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.AssemblyInfoInputs.cache
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.AssemblyInfo.cs
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.dll
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.pdb
+C:/Users/Shehryar Khan/source/repos/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.csprojAssemblyReference.cache
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.deps.json
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.runtimeconfig.json
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.runtimeconfig.dev.json
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.dll
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/bin/Debug/netcoreapp2.0/RoleBasedAuthorization.pdb
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.csprojAssemblyReference.cache
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.csproj.CoreCompileInputs.cache
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.AssemblyInfoInputs.cache
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.AssemblyInfo.cs
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.dll
+/Users/shehryarkhan/Projects/RoleBasedAuthorization/RoleBasedAuthorization/obj/Debug/netcoreapp2.0/RoleBasedAuthorization.pdb

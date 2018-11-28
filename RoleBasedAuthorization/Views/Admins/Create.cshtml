@@ -1,0 +1,54 @@
+﻿@model RoleBasedAuthorization.Models.Admins
+
+@{
+    ViewData["Title"] = "Create Admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        @ViewData["Title"]
+    </h1>
+</section>
+<!-- Main content -->
+<section class="content container-fluid">
+    <div class="row">
+        <!-- left column -->
+        <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Add New Admin</h3>
+                </div>
+                <!-- /.box-header -->
+                <!-- form start -->
+                <form method="post" asp-action="/Admins/Create">
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Full Name</label>
+                            <input type="text" class="form-control" id="FullName" name="FullName" placeholder="Enter Full Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Email</label>
+                            <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="Password" name="Password" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="RolesId" class="control-label"></label>
+                            @Html.DropDownList("RolesId", null, htmlAttributes: new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <!-- /.box -->
+        </div>
+    </div>
+</section>

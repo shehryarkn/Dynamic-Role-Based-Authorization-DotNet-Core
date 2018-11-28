@@ -1,0 +1,53 @@
+﻿* {
+    padding: 0px;
+    list-style-type: none;
+}
+
+input[type=checkbox] {
+    vertical-align: middle !important;
+}
+
+.mytree {
+    font: 16px "Calibri";
+    margin: 2% auto;
+    width: 95%;
+}
+
+    .mytree ul {
+        display: none;
+        margin: 4px auto;
+        margin-left: 6px;
+        border-left: 1px dashed #dfdfdf;
+        margin-top: 20px;
+    }
+
+    .mytree li {
+        padding: 12px 40px;
+        cursor: pointer;
+        vertical-align: middle;
+        background: #fff;
+    }
+
+        .mytree li:first-child {
+            border-radius: 3px 3px 0 0;
+        }
+
+        .mytree li:last-child {
+            border-radius: 0 0 3px 3px;
+        }
+
+    .mytree label {
+        cursor: pointer;
+    }
+
+    .mytree input[type=checkbox] {
+        margin: -2px 6px 0 0px;
+    }
+
+.has > label {
+    color: #000;
+}
+
+.mytree .total {
+    color: #e13300;
+}
