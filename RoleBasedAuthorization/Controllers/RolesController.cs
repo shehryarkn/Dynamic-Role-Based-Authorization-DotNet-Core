@@ -26,6 +26,7 @@ namespace RoleBasedAuthorization.Controllers
         }
         
         // GET: Roles/Create
+        [AuthorizedAction]
         public IActionResult Create()
         {
             return View();
