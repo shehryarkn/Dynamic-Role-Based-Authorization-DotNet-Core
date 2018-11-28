@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Nov 28, 2018 at 03:24 PM
+-- Host: localhost
+-- Generation Time: Nov 28, 2018 at 09:46 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -42,8 +42,8 @@ CREATE TABLE `admins` (
 
 INSERT INTO `admins` (`id`, `full_name`, `email`, `password`, `roles_id`) VALUES
 (1, 'Shehryar Khan', 'shehryarkn@gmail.com', '12345', 1),
-(2, 'Ahsan Saeed', 'ahsansaeed067@gmail.com', NULL, 2),
-(3, 'Shayan tahir', 'shayan@codinginfinite.com', NULL, 2);
+(2, 'Ahsan Saeed', 'ahsansaeed067@gmail.com', '12345', 2),
+(3, 'Shayan tahir', 'shayan@codinginfinite.com', '12345', 6);
 
 -- --------------------------------------------------------
 
@@ -74,7 +74,10 @@ INSERT INTO `link_roles_menus` (`id`, `roles_id`, `menus_id`) VALUES
 (68, 1, 4),
 (69, 1, 5),
 (70, 1, 6),
-(71, 1, 7);
+(71, 1, 7),
+(76, 6, 1),
+(77, 6, 2),
+(78, 6, 4);
 
 -- --------------------------------------------------------
 
@@ -120,8 +123,9 @@ CREATE TABLE `roles` (
 --
 
 INSERT INTO `roles` (`id`, `title`, `description`) VALUES
-(1, 'Manager', 'Can Create & Remove Other Users..'),
-(2, 'Supervisor', 'Can Register, Activate & Block Drivers, Passengers, Vendors ');
+(1, 'Manager', 'Super Admin with all rights...'),
+(2, 'Supervisor', 'Can View Dashboard, Admins & Roles'),
+(6, 'Developer', 'Can View Dashboard &  Admins List');
 
 --
 -- Indexes for dumped tables
@@ -168,7 +172,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `link_roles_menus`
 --
 ALTER TABLE `link_roles_menus`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT for table `menus`
@@ -180,7 +184,7 @@ ALTER TABLE `menus`
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Constraints for dumped tables
