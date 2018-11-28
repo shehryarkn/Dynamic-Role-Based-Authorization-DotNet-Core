@@ -15,6 +15,7 @@ namespace RoleBasedAuthorization.Controllers
         
 
         // GET: Admins
+        [AuthorizedAction]
         public async Task<IActionResult> Index()
         {
             var myDbContext = _context.Admins.Include(a => a.Roles);
@@ -22,6 +23,7 @@ namespace RoleBasedAuthorization.Controllers
         }
         
         // GET: Admins/Create
+        [AuthorizedAction]
         public IActionResult Create()
         {
             ViewBag.RolesId = new SelectList(_context.Roles, "Id", "Title");
